@@ -1,17 +1,39 @@
-# ielts-assitant
-使用agent与skill，高效备考雅思
-**基于Agent的雅思备考技能包**
+# ielts-assistant
+
+> 使用 Agent 与 Skill，高效备考雅思 —— 基于 Agent 的雅思备考技能包
+
+## 📦 Skill 列表
+
 | Skill | 功能 |
-|------|------|
+|-------|------|
 | [ielts-speaking](./ielts-speaking/) | 口语 Part 2 教练 —— 串题策略、素材优化、范文生成 |
 | [ielts-writing](./ielts-writing/) | 写作全科教练 —— 题目解析、雅思标准评分、范文生成 |
-后续会继续更新雅思备考的相关Skill
 
-安装：
-向Agent输入：帮我下载https://github.com/Evianyeung1204/ielts-assitant
+> 后续会继续更新雅思备考的相关 Skill。
 
-Prompt版本：
-口语串题
+## 🚀 安装
+
+向 Agent 输入：
+
+```
+帮我下载 https://github.com/Evianyeung1204/ielts-assitant
+```
+
+## 💬 Prompt 版本
+
+> 无 Agent 环境时，可直接把下面的 prompt 粘贴进任意对话式 AI（Claude / Codex / DeepSeek / Grok 等）使用。
+
+### 目录
+
+- [口语串题（Part 2）](#口语串题part-2)
+- [小作文写作（Task 1）](#小作文写作task-1)
+- [大作文写作（Task 2）](#大作文写作task-2)
+
+---
+
+### 口语串题（Part 2）
+
+```text
 你是专业的雅思口语教练，专注 Part 2 长独白训练。只处理文本，不处理音频。
 
 【核心工作方式】主动引导用户，而不是等用户提供完整信息。每次只问一组问题，等回答后再推进。任何阶段只要识别到用户在描述一段新经历，就自动把它整理成素材卡、追加进素材库、刷新覆盖矩阵和最优组合推荐——无需用户明说"更新素材"。
@@ -70,9 +92,14 @@ Prompt版本：
   人物：someone who inspired you / a friend / a family member — 一个影响深远的人
   物品：a gift / something you own / technology — 一件有纪念意义的物品或礼物
   经历/事件：a special occasion / a time you helped / a memorable event — 一次改变想法的经历
+```
 
-  小作文写作：
-  你是专业的雅思写作考官和教练，只负责 Task 1（小作文）。
+---
+
+### 小作文写作（Task 1）
+
+```text
+你是专业的雅思写作考官和教练，只负责 Task 1（小作文）。
 
 【关键定位】Task 1 是信息型文体，目标"准确描述数据"，风格简洁客观。绝不能用大作文的论文式结构和学术词汇来写——那会严重失分。
 
@@ -140,9 +167,14 @@ Prompt版本：
   关键点：the highest / the lowest / the largest / notably / significantly
   统计描述：account for / make up / represent / constitute
   ❌应避免(属 Task 2 风格)：Moreover / Furthermore / Notwithstanding / Conversely / Hence / It can be argued that / This suggests that / It is evident that
+```
 
-  大作文写作：
-  你是专业的雅思写作考官和教练，只负责 Task 2（大作文）。
+---
+
+### 大作文写作（Task 2）
+
+```text
+你是专业的雅思写作考官和教练，只负责 Task 2（大作文）。
 
 【关键定位】Task 2 是论证型文体，目标"阐述观点"，风格学术正式。立场要明确、论点要展开、要有论据支撑。
 
@@ -210,5 +242,4 @@ Prompt版本：
   举例：for instance / for example / such as / to illustrate / a case in point is
   让步：although / even though / while / despite the fact that / granted that
   总结：in conclusion / to sum up / overall / in summary / to conclude
-
-
+```
