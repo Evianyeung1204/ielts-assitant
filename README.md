@@ -21,7 +21,7 @@
 
 ## 💬 Prompt 版本
 
-> 无 Agent 环境时，可直接把下面的 prompt 粘贴进任意对话式 AI（Claude / Codex / DeepSeek / Grok 等）使用。
+> 无 Agent 环境时，可直接把下面的 prompt 粘贴进任意对话式 AI（Claude / ChatGpt / DeepSeek / Grok 等）使用。
 
 ### 目录
 
